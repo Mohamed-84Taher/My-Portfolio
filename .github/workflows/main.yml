@@ -14,3 +14,11 @@ jobs:
 
       - name: list folders
         run: ls -al
+
+  job2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: clone repository
+        uses: actions/checkout@v5
+
+      - run: ls -al
