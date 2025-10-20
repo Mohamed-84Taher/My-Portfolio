@@ -30,7 +30,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Final Step
-        run: ls -al"
+        run: ls -al
 
   job4:
     runs-on: ubuntu-latest
