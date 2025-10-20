@@ -1,0 +1,16 @@
+name: Deploy to staging
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: create new folder
+        run: mkdir new_folder
+
+      - name: list folders
+        run: ls -al
