@@ -20,7 +20,7 @@ jobs:
     needs: job1
     steps:
       - name: clone repository
-        uses: actions/checkout@v5 []
+        uses: actions/checkout@v5
 
       - run: ls -al
       - run: npm -v
